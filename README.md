@@ -7,19 +7,6 @@
 </div>
 
 <div align="center">
-    <h3 align="center">- 🔭 I’m currently working on financial App using Flutter
-- 🌱 I’m currently learning Springboot, Ribbon, Eureka Netflix
-- 📫 How to reach me: rafasrrg13@gmail.com
+    <h3 align="center">- 🔭 I’m currently working on financial App using Flutter\n- 🌱 I’m currently learning Springboot, Ribbon, Eureka Netflix\n- 📫 How to reach me: rafasrrg13@gmail.com
 </h3>
-
-
 </div>
-<!--
-**RafaSG13/RafaSG13** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on financial App using Flutter
-- 🌱 I’m currently learning Springboot, Ribbon, Eureka Netflix
-- 📫 How to reach me: rafasrrg13@gmail.com
--->
