@@ -1,8 +1,9 @@
 <div id="header" align="center">
-    <img src="https://media.giphy.com/media/2IudUHdI075HL02Pkk/giphy.gif"></img>
-
-    <h1>Hi there 👋</h1>
-
+    <img src="https://media.giphy.com/media/2IudUHdI075HL02Pkk/giphy.gif" width="200"></img>
+    <h1>Welcome, i am Rafael Serrano Gamarra 👋</h1>
+    <h2>
+    A young enthusiastic developer that loves to exploring and building crazy stuff. Feel free to check some of my projects. :hugs:	
+    </h2>
 </div>
 
 
