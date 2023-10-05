@@ -7,6 +7,8 @@
 </div>
 
 <div align="center">
-    <h3 align="center">- 🔭 I’m currently working on financial App using Flutter\n- 🌱 I’m currently learning Springboot, Ribbon, Eureka Netflix\n- 📫 How to reach me: rafasrrg13@gmail.com
-</h3>
+    <h3 align="center">- 🔭 I’m currently working on financial App using Flutter
+        - 🌱 I’m currently learning SwiftUI, UIkit
+        - 📫 How to reach me: rafasrrg13@gmail.com
+    </h3>
 </div>
