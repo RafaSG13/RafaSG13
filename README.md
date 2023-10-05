@@ -7,8 +7,7 @@
 </div>
 
 <div align="center">
-    <h3 align="center">- 🔭 I’m currently working on financial App using Flutter
-        - 🌱 I’m currently learning SwiftUI, UIkit
-        - 📫 How to reach me: rafasrrg13@gmail.com
-    </h3>
+    <h3 align="center">- 🔭 I’m currently working on financial App using Flutter</h3>
+    <h3>- 🌱 I’m currently learning SwiftUI, UIkit</h3>
+    <h3>- 📫 How to reach me: rafasrrg13@gmail.com</h3>
 </div>
