@@ -1,61 +1,34 @@
-# 👋 Hello, I'm Rafael Serrano Gamarra!
+# Rafael Serrano Gamarra
 
-Welcome to my GitHub profile! I'm a passionate and driven developer who thrives on learning, adapting, and creating innovative solutions. With a focus on both personal growth and technical excellence, I bring a unique combination of ambition, communication, and adaptability to every project I work on. 🚀
+iOS engineer on the Zara app, a single app that serves every market. I've worked on it since 2023 at Nomasystems, mostly in Swift, SwiftUI and UIKit. Before that I was an Oracle DBA.
 
----
+What pulls me in is how an app is put together: how it's split into modules, how it's tested and how its pieces depend on each other.
 
-## 🌟 About Me
+## What I work on
 
-- 🔥 **Ambitious Learner**: I’m constantly seeking to grow and master new technologies.
-- 🗣 **Strong Communicator**: Collaboration is at the heart of my work, ensuring teams are aligned and goals are met effectively.
-- 🎯 **Adaptable Problem Solver**: I adapt quickly to challenges and find creative solutions to complex problems.
-- 📘 **Lifelong Learner**: Always curious, always improving.
+- In-store features: appointment booking, orders destined for a store, and finding an item on the shop floor or in the stockroom.
+- As part of the team, moving a monolithic codebase to Domain / Network / Presentation layers in Swift Package Manager modules, with unit tests on use cases, mappers and view models.
+- Migrating legacy UIKit screens to SwiftUI and removing hidden dependencies on the way.
+- Live Activities updated through push notifications, Apple Wallet passes, Quick Actions and accessibility work (Dynamic Type included).
+- AI in the development workflow: module READMEs and `AGENTS.md` files so coding agents get context they can actually use.
 
----
+That code lives in private repositories. The projects below are personal.
 
-## 🛠 Technical Skills
+## Projects
 
-### 📱 iOS Development
-- **UIKit**: Expert in creating intuitive and responsive user interfaces.
-- **SwiftUI**: Building modern, declarative UI experiences.
-- **Vapor**: Exploring server-side Swift for robust backend development.
+| Project | What it is | Stack |
+|---|---|---|
+| [NavigatorUI](https://github.com/RafaSG13/NavigatorUI) | Lightweight navigation library for SwiftUI, inspired by `UINavigationController`, with deep linking and modular destinations. | Swift, SwiftUI, SPM · iOS 16+ |
+| [NomadSwift](https://github.com/RafaSG13/NomadSwift) | Terminal coding-agent harness: plan and build agents, Anthropic / OpenAI / Gemini providers, and tools for files, grep, git, shell and tests. | Swift 6, SwiftPM, TUI |
+| [ios-messup](https://github.com/RafaSG13/ios-messup) | Personal finance app (expenses, income, savings goals), a SwiftUI rebuild of my university final project. Domain / Data / Presentation layers, JWT auth stored in the Keychain with token refresh, Swift Charts. | SwiftUI, async/await, XCTest |
 
-### 🌐 Web Development
-- **Angular**: Crafting dynamic and scalable front-end applications.
-- **Node.js**: Building efficient server-side applications.
-- **Spring Framework**: Leveraging Java for enterprise-level solutions.
+## Stack
 
-### 🔧 Other Tools & Technologies
-- Agile Methodologies
-- RESTful APIs
-- Git & GitHub for version control
-- Continuous learning of new frameworks and best practices
+Swift · SwiftUI · UIKit · Swift Package Manager · Swift Concurrency · XCTest · Live Activities · PassKit · Accessibility
 
----
+## Contact
 
-## ✨ Core Values
+I'm looking for iOS roles at product companies, ideally fully remote and international.
 
-💡 **Innovation**: Turning creative ideas into functional solutions.  
-🤝 **Teamwork**: Building trust and fostering collaboration in every project.  
-🎓 **Growth**: A commitment to personal and professional development.  
-⚡ **Impact**: Delivering results that make a difference.
-
----
-
-## 📈 My Goals
-
-1. **Master Vapor**: Take my server-side Swift skills to the next level.  
-2. **Expand Full-Stack Expertise**: Dive deeper into modern backend frameworks like Spring and Node.js and Vapor.  
-3. **Lead Projects**: Bring teams together to create impactful solutions.
-
----
-
-## 📫 Let’s Connect!
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/rafaelserranogamarra/)
-- 📧 [Email Me](rafasrrg13@gmail.com)
-
----
-
-Thank you for stopping by! Let's build something amazing together! 🚀
-
+- LinkedIn: [rafaelserranogamarra](https://www.linkedin.com/in/rafaelserranogamarra/)
+- Email: [rafasrrg13@gmail.com](mailto:rafasrrg13@gmail.com)
