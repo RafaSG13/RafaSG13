@@ -16,10 +16,17 @@ That code lives in private repositories. The projects below are personal.
 
 ## Projects
 
+### AI
+
+| Project | What it is | Stack |
+|---|---|---|
+| [minimal](https://github.com/RafaSG13/Minimal) | Minimal, extensible coding-agent harness for the terminal. Claude (API key or Pro/Max subscription), Gemini and any OpenAI-compatible server, switchable mid-conversation. Tools, commands, providers, hooks and widgets come from Python extensions that the agent can write and hot-reload itself, with a git-based [marketplace](https://github.com/RafaSG13/minimal-marketplace). On PyPI as `mnml-agent`. | Python 3.11+, Textual, uv |
+
+### iOS
+
 | Project | What it is | Stack |
 |---|---|---|
 | [NavigatorUI](https://github.com/RafaSG13/NavigatorUI) | Lightweight navigation library for SwiftUI, inspired by `UINavigationController`, with deep linking and modular destinations. | Swift, SwiftUI, SPM · iOS 16+ |
-| [NomadSwift](https://github.com/RafaSG13/NomadSwift) | Terminal coding-agent harness: plan and build agents, Anthropic / OpenAI / Gemini providers, and tools for files, grep, git, shell and tests. | Swift 6, SwiftPM, TUI |
 | [ios-messup](https://github.com/RafaSG13/ios-messup) | Personal finance app (expenses, income, savings goals), a SwiftUI rebuild of my university final project. Domain / Data / Presentation layers, JWT auth stored in the Keychain with token refresh, Swift Charts. | SwiftUI, async/await, XCTest |
 
 ## Stack
