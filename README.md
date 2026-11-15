@@ -2,7 +2,7 @@
 
 iOS engineer on the Zara app, a single app that serves every market. I've worked on it since 2023 at Nomasystems, mostly in Swift, SwiftUI and UIKit. Before that I was an Oracle DBA.
 
-What pulls me in is how an app is put together: how it's split into modules, how it's tested and how its pieces depend on each other.
+What pulls me in is how an app is put together: how it's split into modules, how it's tested and how its pieces depend on each other. Outside work I build developer tools in Python and Go, and ship them the way I'd want to receive them: tagged releases, checksums, a changelog and a written threat model.
 
 ## What I work on
 
@@ -15,6 +15,12 @@ What pulls me in is how an app is put together: how it's split into modules, how
 That code lives in private repositories. The projects below are personal.
 
 ## Projects
+
+### Security
+
+| Project | What it is | Stack |
+|---|---|---|
+| [Pandora](https://github.com/RafaSG13/Pandora) | A terminal vault for secrets, backed by the operating system's keyring (macOS Keychain, Windows Credential Manager, Linux Secret Service). Keeps API keys and tokens out of dotfiles and shell history. A full-screen interface plus a scriptable CLI: `get`, `add`, `run` (injects secrets into one process only), encrypted export/import, a password generator, an idle lock and a clipboard that clears itself. No network, no telemetry. Released for macOS, Linux and Windows, with checksums and a Homebrew tap: `brew install RafaSG13/tap/pandora`. | Go, OS keyring, age encryption, GoReleaser |
 
 ### AI
 
@@ -31,11 +37,11 @@ That code lives in private repositories. The projects below are personal.
 
 ## Stack
 
-Swift · SwiftUI · UIKit · Swift Package Manager · Swift Concurrency · XCTest · Live Activities · PassKit · Accessibility
+Swift · SwiftUI · UIKit · Swift Package Manager · Swift Concurrency · XCTest · Live Activities · PassKit · Accessibility · Go · Python · Textual · GoReleaser · GitHub Actions
 
 ## Contact
 
 I'm looking for iOS roles at product companies, ideally fully remote and international.
 
-- LinkedIn: [rafaelserranogamarra](https://www.linkedin.com/in/rafaelserranogamarra/)
-- Email: [rafasrrg13@gmail.com](mailto:rafasrrg13@gmail.com)
+- LinkedIn: [rafaelserranogamarra](https://www.linkedin.com/in/rafaelserranogamarra)
+- Email: rafasrrg13@gmail.com
