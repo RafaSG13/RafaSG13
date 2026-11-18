@@ -1,4 +1,12 @@
-# Rafael Serrano Gamarra
+<p align="center">
+  <img src="assets/header.svg" alt="Rafa Serrano: iOS engineer, Swift, SwiftUI, UIKit; developer tools in Go and Python" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/rafaelserranogamarra"><img src="https://img.shields.io/badge/LinkedIn-rafaelserranogamarra-0A66C2?style=for-the-badge" alt="LinkedIn"></a>
+  <a href="mailto:rafasrrg13@gmail.com"><img src="https://img.shields.io/badge/Email-rafasrrg13%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Open_to-remote_iOS_roles-2ea44f?style=for-the-badge" alt="Open to remote iOS roles">
+</p>
 
 iOS engineer on the Zara app, a single app that serves every market. I've worked on it since 2023 at Nomasystems, mostly in Swift, SwiftUI and UIKit. Before that I was an Oracle DBA.
 
@@ -18,7 +26,15 @@ That code lives in private repositories. The projects below are personal.
 
 ### [minimal](https://github.com/RafaSG13/Minimal) · a coding-agent harness for the terminal
 
-[![PyPI](https://img.shields.io/pypi/v/mnml-agent?label=PyPI&color=6f86f4)](https://pypi.org/project/mnml-agent/)
+<p align="center">
+  <a href="https://github.com/RafaSG13/Minimal"><img src="https://raw.githubusercontent.com/RafaSG13/Minimal/HEAD/assets/banner.svg" alt="minimal: bare by default, yours by config" width="100%"></a>
+</p>
+
+<p align="center">
+  <a href="https://pypi.org/project/mnml-agent/"><img src="https://img.shields.io/pypi/v/mnml-agent?style=for-the-badge&color=6f86f4&label=PyPI" alt="PyPI version"></a>
+  <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.11+">
+  <img src="https://img.shields.io/badge/UI-Textual-b665ea?style=for-the-badge" alt="UI: Textual">
+</p>
 
 A small agent loop (model → tools → model) with a Textual UI, written so that every piece can be read in one sitting and replaced from a single Python file. Works with Claude, Gemini and any OpenAI-compatible server (OpenAI, OpenRouter, Ollama, LM Studio) on one provider-neutral history, so you can switch provider mid-conversation.
 
@@ -27,22 +43,56 @@ A small agent loop (model → tools → model) with a Textual UI, written so tha
 - Safe by default: confirmations, allow/deny permission rules, a project's extensions run only after `/trust`, global installs show a static scan of the code first, and edits are refused on files that changed since the model read them.
 - [minimal-marketplace](https://github.com/RafaSG13/minimal-marketplace): the default git-based marketplace, with 50 extensions, tools, widgets and themes, versioned by extension API and checked in CI against every change to minimal.
 
-`uv tool install mnml-agent` or `brew install rafasg13/tap/minimal` · Python 3.11+, Textual, uv
+<table>
+<tr>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/RafaSG13/Minimal/HEAD/assets/screenshots/custom-theme.svg" alt="minimal with a colour theme and a sidebar" width="100%"><br><sub>Colour theme + sidebar</sub></td>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/RafaSG13/Minimal/HEAD/assets/screenshots/custom-bulbasaur.svg" alt="minimal with a pixel-art logo and a context gauge" width="100%"><br><sub>Pixel-art logo + context gauge</sub></td>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/RafaSG13/Minimal/HEAD/assets/screenshots/custom-coffee.svg" alt="minimal with a command menu and a files panel" width="100%"><br><sub>Command menu + files panel</sub></td>
+</tr>
+</table>
+
+```bash
+uv tool install mnml-agent        # or: brew install rafasg13/tap/minimal
+```
 
 ### [Pandora](https://github.com/RafaSG13/Pandora) · a terminal vault for secrets
 
-[![Release](https://img.shields.io/github/v/release/RafaSG13/Pandora)](https://github.com/RafaSG13/Pandora/releases)
+<p align="center">
+  <a href="https://github.com/RafaSG13/Pandora"><img src="https://raw.githubusercontent.com/RafaSG13/Pandora/HEAD/assets/pandora-logo.svg" alt="Pandora" width="100%"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/RafaSG13/Pandora/releases"><img src="https://img.shields.io/github/v/release/RafaSG13/Pandora?style=for-the-badge&color=a855f7" alt="Latest release"></a>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/macOS%20%7C%20Linux%20%7C%20Windows-555555?style=for-the-badge" alt="macOS, Linux and Windows">
+</p>
 
 A full-screen TUI plus a scriptable CLI that keep API keys, tokens and passwords out of dotfiles and shell history.
 
 - Master-password vault: names, notes and values encrypted with Argon2id and XChaCha20-Poly1305; values also kept in the OS keyring (macOS Keychain, Windows Credential Manager, Linux Secret Service) under random IDs.
 - `get`, `add`, `run` (injects secrets into one process only), `gen`, encrypted `export`/`import` with age, tags and multi-line secrets such as SSH keys.
 - A clipboard that clears itself after 15 seconds and is kept out of clipboard history on macOS and Windows, an idle lock that drops the key from memory, and safe concurrent writes from several processes.
-- No network, no telemetry. Releases for macOS, Linux and Windows with checksums, and a written threat model.
+- No network, no telemetry. Releases with checksums and a written threat model.
 
-`brew install rafasg13/tap/pandora` · Go, Bubble Tea, age, GoReleaser
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RafaSG13/Pandora/HEAD/assets/pandora-image.jpeg" alt="Pandora's jar, open, with keys spilling out" width="100%">
+</p>
+
+```bash
+brew install rafasg13/tap/pandora
+```
 
 ### [Messup](https://github.com/RafaSG13/ios-messup) · personal finance for iOS 26
+
+<p align="center">
+  <a href="https://github.com/RafaSG13/ios-messup"><img src="https://raw.githubusercontent.com/RafaSG13/ios-messup/HEAD/docs/messup-git-header.jpeg" alt="Messup: expense and payment tracking for the beautifully absent-minded" width="100%"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/iOS-26%2B-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS 26+">
+  <img src="https://img.shields.io/badge/Swift-6-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift 6">
+  <img src="https://img.shields.io/badge/SwiftData-local--only-0A84FF?style=for-the-badge" alt="SwiftData, local-only">
+</p>
 
 Expense, income and savings tracker, my university final project rebuilt as a local-only app: no backend, no login, no third-party dependencies.
 
@@ -53,9 +103,18 @@ Expense, income and savings tracker, my university final project rebuilt as a lo
 
 ### [NavigatorUI](https://github.com/RafaSG13/NavigatorUI) · navigation for SwiftUI
 
-Lightweight navigation library inspired by `UINavigationController`, with deep linking and modular destinations. Swift Package Manager, iOS 16+.
+<p>
+  <img src="https://img.shields.io/badge/iOS-16%2B-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS 16+">
+  <img src="https://img.shields.io/badge/SPM-compatible-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift Package Manager">
+</p>
+
+Lightweight navigation library inspired by `UINavigationController`, with deep linking and modular destinations.
 
 ## Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=swift,apple,go,py,githubactions,git,bash" alt="Swift, Apple platforms, Go, Python, GitHub Actions, Git, Bash">
+</p>
 
 **iOS:** Swift · SwiftUI · UIKit · SwiftData · Swift Concurrency · Swift Package Manager · Swift Testing · XCTest · App Intents · Live Activities · PassKit · Accessibility
 
@@ -63,7 +122,4 @@ Lightweight navigation library inspired by `UINavigationController`, with deep l
 
 ## Contact
 
-I'm looking for iOS roles at product companies, ideally fully remote and international.
-
-- LinkedIn: [rafaelserranogamarra](https://www.linkedin.com/in/rafaelserranogamarra)
-- Email: rafasrrg13@gmail.com
+I'm looking for iOS roles at product companies, ideally fully remote and international. Reach me on [LinkedIn](https://www.linkedin.com/in/rafaelserranogamarra) or at rafasrrg13@gmail.com.
