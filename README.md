@@ -43,14 +43,6 @@ A small agent loop (model → tools → model) with a Textual UI, written so tha
 - Safe by default: confirmations, allow/deny permission rules, a project's extensions run only after `/trust`, global installs show a static scan of the code first, and edits are refused on files that changed since the model read them.
 - [minimal-marketplace](https://github.com/RafaSG13/minimal-marketplace): the default git-based marketplace, with 50 extensions, tools, widgets and themes, versioned by extension API and checked in CI against every change to minimal.
 
-<table>
-<tr>
-<td width="33%" align="center"><img src="https://raw.githubusercontent.com/RafaSG13/Minimal/HEAD/assets/screenshots/custom-theme.svg" alt="minimal with a colour theme and a sidebar" width="100%"><br><sub>Colour theme + sidebar</sub></td>
-<td width="33%" align="center"><img src="https://raw.githubusercontent.com/RafaSG13/Minimal/HEAD/assets/screenshots/custom-bulbasaur.svg" alt="minimal with a pixel-art logo and a context gauge" width="100%"><br><sub>Pixel-art logo + context gauge</sub></td>
-<td width="33%" align="center"><img src="https://raw.githubusercontent.com/RafaSG13/Minimal/HEAD/assets/screenshots/custom-coffee.svg" alt="minimal with a command menu and a files panel" width="100%"><br><sub>Command menu + files panel</sub></td>
-</tr>
-</table>
-
 ```bash
 uv tool install mnml-agent        # or: brew install rafasg13/tap/minimal
 ```
@@ -73,10 +65,6 @@ A full-screen TUI plus a scriptable CLI that keep API keys, tokens and passwords
 - `get`, `add`, `run` (injects secrets into one process only), `gen`, encrypted `export`/`import` with age, tags and multi-line secrets such as SSH keys.
 - A clipboard that clears itself after 15 seconds and is kept out of clipboard history on macOS and Windows, an idle lock that drops the key from memory, and safe concurrent writes from several processes.
 - No network, no telemetry. Releases with checksums and a written threat model.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/RafaSG13/Pandora/HEAD/assets/pandora-image.jpeg" alt="Pandora's jar, open, with keys spilling out" width="100%">
-</p>
 
 ```bash
 brew install rafasg13/tap/pandora
