@@ -73,7 +73,7 @@ brew install rafasg13/tap/pandora
 ### [Messup](https://github.com/RafaSG13/ios-messup) · personal finance for iOS 26
 
 <p align="center">
-  <a href="https://github.com/RafaSG13/ios-messup"><img src="https://raw.githubusercontent.com/RafaSG13/ios-messup/HEAD/docs/messup-git-header.jpeg" alt="Messup: expense and payment tracking for the beautifully absent-minded" width="100%"></a>
+  <a href="https://github.com/RafaSG13/ios-messup"><img src="https://raw.githubusercontent.com/RafaSG13/ios-messup/HEAD/docs/messup-header.png" alt="Messup: expense and payment tracking for the beautifully absent-minded" width="100%"></a>
 </p>
 
 <p align="center">
