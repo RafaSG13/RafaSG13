@@ -89,14 +89,25 @@ Expense, income and savings tracker, my university final project rebuilt as a lo
 - An App Intent to log an expense from Siri, Shortcuts, Spotlight or the Action button.
 - Shared components in a local SPM design-system package; logic covered with Swift Testing.
 
-### [NavigatorUI](https://github.com/RafaSG13/NavigatorUI) · navigation for SwiftUI
+### [NavigatorUI](https://github.com/RafaSG13/NavigatorUI) · navigation for SwiftUI on UINavigationController
 
-<p>
-  <img src="https://img.shields.io/badge/iOS-16%2B-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS 16+">
-  <img src="https://img.shields.io/badge/SPM-compatible-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift Package Manager">
+<p align="center">
+  <a href="https://github.com/RafaSG13/NavigatorUI"><img src="https://raw.githubusercontent.com/RafaSG13/NavigatorUI/HEAD/assets/banner.svg" alt="NavigatorUI: SwiftUI navigation built on UINavigationController" width="100%"></a>
 </p>
 
-Lightweight navigation library inspired by `UINavigationController`, with deep linking and modular destinations.
+<p align="center">
+  <img src="https://img.shields.io/badge/iOS-16%2B-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS 16+">
+  <img src="https://img.shields.io/badge/Swift-6.1-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift 6.1">
+  <img src="https://img.shields.io/badge/dependencies-none-2ea44f?style=for-the-badge" alt="No dependencies">
+</p>
+
+A navigation library for SwiftUI apps that does not use `NavigationStack`: every stack is a real `UINavigationController` and every screen a `UIHostingController`, so the stack can be inspected, pops can be intercepted and transitions customized, while screens stay plain SwiftUI views.
+
+- Calls are queued and run one at a time, each after the previous transition ends, so `push(a); push(b); present(c)` is safe, even before the UI exists.
+- Pop guards for the back button, swipe-back and programmatic pops; `setStack`, `pop(to:)` and stack inspection.
+- Sheets and full-screen covers, each with its own navigator and stack, and `onDismiss`.
+- Deep links with URL patterns, multi-screen stacks, sheets followed by pushes inside them, universal links and cold start.
+- Custom transitions, an event stream for analytics, feature modules that own their routes, no dependencies. Documented with diagrams, an architecture guide and an example app with UI tests.
 
 ## Stack
 
